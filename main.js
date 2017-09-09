@@ -16,3 +16,7 @@ else if (choice === '*') {
 else if (choice === '/') {
 	alert(firstNumber / secondNumber);
 }
+
+else  {
+	alert('Invalid choice, refresh the page to try again.');
+}
