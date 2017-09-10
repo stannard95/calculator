@@ -3,26 +3,25 @@ var choice = prompt('What operator would you like to do?\n\
 	[s] for subtraction\n\
 	[m] for multiplication\n\
 	[d] for division\n\
-	[r] to square a number\n\
+	[r] to get the square root of  a number\n\
 	[p] to power your number by another number');
 
 var firstNumber = parseFloat(prompt('What is your first number?'));
 
-if (choice !== 'root') {
+if (choice !== 'r') {
 	var secondNumber = parseFloat(prompt('What is your second number?'));
-
 }
 
-if (choice === '+') {
+if (choice === 'a') {
 	alert(firstNumber + secondNumber);
 
-} else if (choice === '-') {
+} else if (choice === 's') {
 	alert(firstNumber - secondNumber);
 
-} else if (choice === '*') {
+} else if (choice === 'm') {
 	alert(firstNumber * secondNumber);
 
-} else if (choice === '/') {
+} else if (choice === 'd') {
 	alert(firstNumber / secondNumber);
 
 } else if (choice === 'p') {
