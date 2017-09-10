@@ -25,10 +25,10 @@ if (choice === '+') {
 } else if (choice === '/') {
 	alert(firstNumber / secondNumber);
 
-} else if (choice === 'power') {
+} else if (choice === 'p') {
 	alert(firstNumber ** secondNumber);
 
-} else if (choice === 'root') {
+} else if (choice === 'r') {
 	alert(Math.sqrt(firstNumber));
 
 } else  {
