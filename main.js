@@ -2,7 +2,7 @@ var choice = prompt('What operator would you like to do?\n\
 	[a] for addition\n\
 	[s] for subtraction\n\
 	[m] for multiplication\n\
-	[] for division\n\
+	[d] for division\n\
 	[r] to square a number\n\
 	[p] to power your number by another number');
 
