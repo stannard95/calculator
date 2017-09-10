@@ -3,7 +3,7 @@ var choice = prompt('What operator would you like to do?\n\
 	[s] for subtraction\n\
 	[m] for multiplication\n\
 	[d] for division\n\
-	[r] to get the square root of  a number\n\
+	[r] to get the square root of a number\n\
 	[p] to power your number by another number');
 
 var firstNumber = parseFloat(prompt('What is your first number?'));
@@ -24,12 +24,12 @@ if (choice === 'a') {
 } else if (choice === 'd') {
 	alert(firstNumber / secondNumber);
 
-} else if (choice === 'p') {
-	alert(firstNumber ** secondNumber);
-
 } else if (choice === 'r') {
 	alert(Math.sqrt(firstNumber));
 
-} else  {
+} else if (choice === 'p') {
+	alert(firstNumber ** secondNumber);
+
+}  else  {
 	alert('Invalid choice, refresh the page to try again.');
 }
