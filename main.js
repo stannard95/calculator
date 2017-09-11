@@ -33,3 +33,4 @@ if (choice === 'a') {
 }  else  {
 	alert('Invalid choice, refresh the page to try again.');
 }
+
